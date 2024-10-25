@@ -37,3 +37,29 @@ pip install .
 ```
 
 ***
+
+## Repository Contents
+
+**RPAL**
+- `RPAL/classification.py`: This code handles training & testing of the classifier and returns the results.
+- `RPAL/constraints.py`: This code enables easy checking of spatial and temporal bias in the data.
+- `RPAL/data.py`: This code handles the various data manipulations required.
+- `RPAL/grapher.py`: This code generates the experiment and results plots.
+- `RPAL/loader.py`: This code handles loading the dataset.
+- `RPAL/poison.py`: This code performs all the data poisoning.
+- `RPAL/recovery.py`: This code generates all the recovery data.
+
+**Results**
+- `Results/Data/`: Contains the data presented in the paper.
+- `Results/Scripts/`: Contains the scripts used to generate the plots and table data in the paper.
+
+**Experiments**:
+- `Drebin-Label-Flip-Deep-Tesseract.py`: Runs all DNN experiments shown in the paper.
+- `Drebin-Label-Flip-RF-Tesseract.py`: Runs all RF experiments shown in the paper.
+- `Drebin-Label-Flip-SVM-Tesseract.py`: Runs all SVM experiments shown in the paper.
+
+**Other**:
+- `deepdrebin.py`: Implements a SKLean compatible implementation of the architecture used in 'Adversarial Examples for Malware Detection' by Grosse et al.
+- `Clean_Label_Poisoning_Mapping.py`: Generates the feature-flip mappings used to mimic the label-flip attack.
+
+***
