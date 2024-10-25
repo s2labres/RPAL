@@ -9,7 +9,7 @@ If you plan to use this repository in your projects, please cite the following p
 @inproceedings{mcfadden2024recovery,
   title = {The Impact of Active Learning on Availability Data Poisoning for Android Malware Classifiers},
   author = {McFadden, Shae and Zeliang, Kan and Cavallaro, Lorenzo and Pierazzi, Fabio},
-  booktitle = {Proc. of the 39th Annual Computer Security Applications Conference ({ACSAC})},
+  booktitle = {Proc. of the 40th Annual Computer Security Applications Conference ({ACSAC})},
   year = {2024},
 }
 ```
